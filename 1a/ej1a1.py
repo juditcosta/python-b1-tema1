@@ -47,10 +47,9 @@ def fibonacci(fibonacci_number):
     elif fibonacci_number < 0:
         raise ValueError ("número menor que 0")
     else:
-        for i in range(fibonacci_number):
+        for _ in range(fibonacci_number):
         a = b
         b = a + b
-        i = i + 1
     return a
         
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script 
