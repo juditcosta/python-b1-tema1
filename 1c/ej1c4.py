@@ -49,8 +49,8 @@ def is_palindrome(word):
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
-# word = "level"
-# print(f"Is '{word}' word palindrome?", is_palindrome(word))
+word = "level"
+print(f"Is '{word}' word palindrome?", is_palindrome(word))
 #
-# word = "juan"
-# print(f"Is '{word}' word palindrome?", is_palindrome(word))
+word = "juan"
+print(f"Is '{word}' word palindrome?", is_palindrome(word))
